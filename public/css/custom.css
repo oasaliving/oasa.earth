@@ -1,0 +1,30 @@
+.article-preview {
+  display: flex;
+  padding: 1rem 0;
+  background-image: url("/images/icons/link.png");
+  background-repeat: no-repeat;
+  background-position: right 1rem;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  transition-duration: 200ms;
+}
+.article-preview:last-child {
+  border-bottom: none;
+}
+.article-preview:hover {
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.article-preview a {
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+.article-preview a:hover {
+  top: 0;
+}
+.article-preview .title {
+  display: block;
+}
+.article-preview .summary {
+  font-style: italic;
+  color: #666;
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Oasa",
+  "url": "https://oasa.co",
+  "address": "30 N Gould St, STE 4000 Sheridan, WY 82801",
+  "sameAs":[
+    "https://facebook.com/oasaliving",
+    "https://twitter.com/oasaliving",
+    "https://linkedin.com/company/oasaliving",
+    "https://instagram.com/oasaliving"
+  ]
+}
